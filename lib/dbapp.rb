@@ -1,8 +1,8 @@
 require 'sinatra/base'
 
 class DatabaseTT < Sinatra::Base
-  set :port, 4000
-  
+  set port:, 4000
+
   get '/' do
     'Hello DatabaseTT!'
   end
